@@ -19,7 +19,7 @@ module.exports = {
             use: [
                 { loader: 'style-loader' },
                 { loader: 'css-loader' },
-                //in case I want to use SASS
+                // in case I want to use SASS;
                 { loader: 'sass-loader' }
             ]
         }, {

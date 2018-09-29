@@ -1,4 +1,5 @@
 
+// diamond horizontal shape for images;
 .diamond-horizontal{
     width: 10rem;
     height: 15.8rem;
@@ -7,7 +8,7 @@
     clip-path: $diamond-polygon;
     transform: rotate(269.5deg);
   }
-  // grey blue color diamond
+  // grey blue color diamond;
   .diamond-horizontal__grey-blue{
     width: 10rem;
     height: 15.8rem;
@@ -16,7 +17,7 @@
     clip-path: $diamond-polygon;
     transform: rotate(269.5deg);
   }
-// black and white image of girl bottom left
+// black and white image of girl bottom left;
   .diamond-horizontal__girl-bw-image{
     width: 182%;
     height: 100%;

@@ -1,6 +1,8 @@
 // React;
 import React from 'react';
 
+// middle left page;
+// in the AboutProfileCardContainer;
 const About = () => {
     return (
         <div className="about">

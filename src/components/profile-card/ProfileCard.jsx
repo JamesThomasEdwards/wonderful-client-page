@@ -1,8 +1,9 @@
 // React
 import React from 'react';
 
+// middle right page;
+// in AboutProfileCardContainer;
 const ProfileCard = () => {
-
     return (
         <div className="profile-card">
             <div className="profile-card-top">

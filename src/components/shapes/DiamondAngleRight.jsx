@@ -1,5 +1,12 @@
 // React;
 import React from 'react';
+// Props;
+import PropTypes from 'prop-types';
+
+const propTypes = {
+    styleColor: PropTypes.string,
+    styleImage: PropTypes.string,
+};
 
 const DiamondAngleRight = (props) => {
     return (
@@ -9,5 +16,7 @@ const DiamondAngleRight = (props) => {
         </div>
     );
 };
+
+DiamondAngleRight.propTypes = propTypes;
 
 export default DiamondAngleRight;

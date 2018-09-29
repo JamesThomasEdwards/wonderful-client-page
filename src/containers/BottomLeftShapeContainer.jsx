@@ -8,7 +8,6 @@ export default class BottomLeftShapeContainer extends Component {
         animate: false
     };
     render() {
-
         return (
             <div>
                 <BottomLeftColumn />

@@ -5,6 +5,9 @@ import DiamondAngleLeft from '../shapes/DiamondAngleLeft.jsx';
 import DiamondAngleRight from '../shapes/DiamondAngleRight.jsx';
 import DiamondHorizontal from '../shapes/DiamondHorizontal.jsx';
 
+// was going to attempt to make columns in the;
+// BottomLeftShapeContainer, but temporaily made this into a row;
+// so I could see work on the shapes without scolling down;
 const BottomLeftContainerColumn = () => {
     return (
         <div className="bottom-left-shape-rows">

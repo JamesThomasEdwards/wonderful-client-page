@@ -1,5 +1,12 @@
 // React;
 import React from 'react';
+// Props;
+import PropTypes from 'prop-types';
+
+const propTypes = {
+    styleColor: PropTypes.string,
+    styleImage: PropTypes.string,
+};
 
 const DiamondHorizontal = (props) => {
     return (
@@ -9,5 +16,7 @@ const DiamondHorizontal = (props) => {
         </div>
     );
 };
+
+DiamondHorizontal.propTypes = propTypes;
 
 export default DiamondHorizontal;
