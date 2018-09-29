@@ -7,7 +7,7 @@ import DiamondAngleRight from '../components/shapes/DiamondAngleRight.jsx';
 export default class TopMiddleShapeContainer extends Component {
     state = {
         animate: false
-    }
+    };
     render() {
         return (
             <div className="top-middle-shape-container">

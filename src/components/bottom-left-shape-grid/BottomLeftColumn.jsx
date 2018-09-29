@@ -5,15 +5,7 @@ import DiamondAngleLeft from '../shapes/DiamondAngleLeft.jsx';
 import DiamondAngleRight from '../shapes/DiamondAngleRight.jsx';
 import DiamondHorizontal from '../shapes/DiamondHorizontal.jsx';
 
-const BottomLeftContainerColumn = (props) => {
-    const col = [1, 2, 3, 4].map((ele, ind) => {
-        return (
-            <div className={"content"}>
-                {/* <Diamond id={ele} /> */}
-                {/* <DiamondSide id={ele} /> */}
-            </div>
-        );
-    });
+const BottomLeftContainerColumn = () => {
     return (
         <div className="bottom-left-shape-rows">
             <DiamondAngleLeft

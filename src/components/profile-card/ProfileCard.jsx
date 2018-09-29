@@ -1,7 +1,7 @@
 // React
 import React from 'react';
 
-const ProfileCard = (props) => {
+const ProfileCard = () => {
 
     return (
         <div className="profile-card">
