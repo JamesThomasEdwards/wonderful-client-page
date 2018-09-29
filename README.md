@@ -35,7 +35,7 @@ npm run test -- --watchAll
 
 ## Containers => components + Jest => test
 
-Containers and components are named accordingly. I included an animation property in some of the stateful containers with the hopes to add some animation to the shapes. I'd love to see them spin on their axis on a click. You'll also find a test fold in there too. The only thing to test were snapshots and initial state for the containers that had them. 
+Containers and components are named accordingly. I included an animation property in some of the stateful containers with the hopes to add some animation to the shapes. I'd love to see them spin on their axis on a click. You'll also find a test fold in there too. The only thing to test were snapshots and initial state for the containers that had them. Also, I was going to attempt to make columns for the bottom left set of shapes
 
 ## Shapes
 
