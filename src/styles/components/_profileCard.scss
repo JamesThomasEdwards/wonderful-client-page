@@ -1,0 +1,38 @@
+
+.profile-card{
+    margin: 1.4rem;
+    border: none;
+    height: 100%;
+    max-width: 21vw;
+    width: 29%;
+    border-radius: 0.7rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    align-self: center;
+}
+.profile-card-top{
+    border: none;
+    height: 50%;
+    width: 100%;
+    background-image: $johanna-profile-photo;
+    background-size: 100%;
+    background-position: 0rem -1.3rem;
+
+}
+
+.profile-card-bottom{
+    border: 1px solid transparent;
+    height: 50%;
+    width: 100%;
+    background-color: #E73267;
+}
+
+.profile-card-bottom__header{
+    margin-left: .83rem;
+    color: white;
+}
+
+.profile-card-bottom__text{
+    margin-left: 1rem;
+    color: rgba(255,255,255, 0.5)
+}

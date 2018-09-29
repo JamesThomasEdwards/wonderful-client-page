@@ -1,0 +1,226 @@
+
+// diamond right shape for images;
+.diamond-angle-right{
+  width: 10rem;
+  height: 15.8rem;
+  background-color: transparent;
+  -webkit-clip-path: $diamond-polygon;
+  clip-path: $diamond-polygon;
+  transform: rotate(212.3deg);
+}
+
+// deep dark blue;
+.diamond-angle-right__deep-dark-blue{
+  width: 10rem;
+  height: 15.8rem;
+  background-color: $deep-dark-blue;
+  -webkit-clip-path: $diamond-polygon;
+  clip-path: $diamond-polygon;
+  transform: rotate(212.3deg);
+}
+
+.diamond-angle-right__off-white-grey{
+  width: 20.4rem;
+  height: 33rem;
+  background-color: $off-white-grey;
+  -webkit-clip-path: $diamond-polygon;
+  clip-path: $diamond-polygon;
+  transform: rotate(212.3deg);
+}
+// image of man with glasses bottom left;
+.diamond-angle-right__man-with-glasses{
+  width: 100%;
+  height: 100%;
+  background-image: $man-with-glasses-photo;
+  background-size: cover;
+  background-position: -2.8rem;
+  transform: rotate(-212.3deg);
+}
+
+// image of girl with dard hair top middle;
+.diamond-angle-right__girl-with-darkhair{
+  width: 100%;
+  height: 100%;
+  background-image: $girl-with-darkhair-photo;
+  background-size: cover;
+  background-position: -2.8rem;
+  transform: rotate(-212.3deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .diamond-shape{
+//     width: 0;
+//     height: 0;
+// 	text-indent: -9999px;
+// 	border-right: 80px solid transparent;
+// 	border-bottom: 130px solid rgb(400,400,100);
+//     border-left: 80px solid transparent;
+//     transform: rotate(90deg);
+//     // margin: 1.5rem;
+  
+// }
+// .diamond-shap{
+//     width: 0;
+//     height: 0;
+// 	text-indent: -9999px;
+// 	border-right: 80px solid transparent;
+// 	border-bottom: 130px solid rgb(100, 132, 200);
+//     border-left: 80px solid transparent;
+//     transform: rotate(90deg);
+// }
+// .diamond-shape{
+//    width: 10rem;
+//    height: 17.3rem;
+//    shape-outside:  polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+//    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+//    background-color: red;
+// }
+.diamond-shape__image{
+    // width: 100%;
+    // height: 100%;
+    // background-image: $background-imag;
+    // background-size: 100%;
+    // z-index: 1;
+}
+
+// .diamond-side-shape{
+//     position: absolute;
+   
+//     top: 80px;
+    
+//     width: 0;
+// 	height: 0;
+// 	text-indent: -9999px;
+// 	border-right: 80px solid transparent;
+// 	border-bottom: 130px solid rgb(100,100,100);
+//     border-left: 80px solid transparent;
+//     transform: rotate(270deg);
+
+// }
+.diamond-side-shape__image{
+
+}
+// .diamond-shape{
+//   width: 10rem;
+//   height: 16rem;
+// //   background-color: transparent;
+//   background-size: 100% 100%;
+//   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+//   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+//   transform: rotate(211.4deg);
+// //   border: none;
+// shape-outside: polygon(0,0,0,0)
+// //   transform: skew(0deg,-45deg);
+// //   overflow: hidden;
+// //  margin-left: 20px;
+// }
+
+
+// .diamond-shape__image{
+//   width: 100%;
+//   height: 100%;
+//   background-image: $background-imag;
+//   background-size: 100%;
+  
+// //   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+// //   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+// //   transform: rotate(240deg) scale(1.5) translate(23px);
+// // transform: skewZ(45deg) scale(2);
+// // transform: skew(0deg,45deg) scale(2.1) translateY(10px);
+
+// }
+// .diamond-side-shape{
+//     position: absolute;
+//     width: 10rem;
+//     height: 16rem;
+//     // background-color: transparent;
+//     background-size: 100% 100%;
+//     -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+//     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+//     transform: rotate(-211.4deg);
+//     // position: absolute;
+
+//     // shape-outside: polygon(10%,10%,10%,10%);
+// //     transform: skew(0deg, 45deg);
+// //   overflow: hidden;
+// //  margin-left: 20px;
+// }
+.diamond-side-shape__image{
+    width: 100%;
+    height: 100%;
+    background-image: $man-with-glasses-photo;
+    background-size: cover;
+    background-position: -2.8rem;
+    transform: rotate(-212.3deg);
+    // -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    // clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    // transform: rotate(240deg) scale(1.5) translate(23px);
+    // transform: skew(0deg, -45deg) scale(2.1) translateY(10px);
+}
+
+  
+.diamond-shape{
+  width: 10rem;
+  height: 15.8rem;
+  background-color: red;
+  background-size: 100% 100%;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  transform: rotate(212.3deg);
+//   margin: -105px -7.7px;
+}
+.diamond-side-shape{
+    display: flex;
+    width: 10rem;
+    height: 15.8rem;
+    background-color: transparent;
+    background-size: 100% 100%;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: rotate(212.3deg);
+    // margin: -105px -7.7px;
+  }
+
+
+
+
+
+
+  
+
+  .top-left-gray-diamond{
+      position: relative;
+    width: 14rem;
+    height: 23.8rem;
+    background-color:#E9F1F5;
+    background-size: 100% 100%;
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    transform: rotate(212.3deg);
+  }
+  .top-left-gray-diamond-container{
+      position: relative;
+width: 20vw;
+height: 10vh;
+  }
+  
+
+

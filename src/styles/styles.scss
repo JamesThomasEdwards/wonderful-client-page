@@ -1,0 +1,14 @@
+
+@import './base/settings';
+@import './base/base';
+// containers;
+@import './containers/aboutProfileCardContainer';
+@import './containers/topContainer';
+@import './containers/bottomLeftShapeContainer';
+@import './containers/leftShapeContainer';
+// components;
+@import './components/diamondAngleLeft';
+@import './components/diamondAngleRight';
+@import './components/profileCard';
+@import './components/about';
+@import './components/diamondHorizontal';
